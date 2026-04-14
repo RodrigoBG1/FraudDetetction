@@ -27,6 +27,12 @@ Key questions it answers:
 | pyarrow | `pip install pyarrow` (for parquet) |
 
 
+
+
+Install all Python dependencies at once:
+```bash
+pip install pyspark jupyter psycopg2-binary pymongo pandas pyarrow
+```
 ---
 
 ## Dataset
@@ -35,12 +41,6 @@ Download the original dataset here:
 [Data_Engineering_BI_Exercise.zip](https://zcs-demo-dataset.s3.us-east-1.amazonaws.com/Data_Engineering_BI_Exercise.zip)
 
 ---
-
-Install all Python dependencies at once:
-```bash
-pip install pyspark jupyter psycopg2-binary pymongo pandas pyarrow
-```
-
 ---
 
 ## How to run the full pipeline
