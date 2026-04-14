@@ -1,0 +1,75 @@
+# ========================
+# IDE
+# ========================
+.idea/
+.vscode/
+*.iml
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ========================
+# Datos crudos y procesados (archivos grandes)
+# ========================
+raw/
+processed/
+curated/
+
+# Archivos de datos temporales
+_tmp_*
+*.parquet
+*.jsonl
+
+# ========================
+# Logs
+# ========================
+*.log
+hs_err_pid*.log
+scripts/ingestion_log.json
+
+# ========================
+# Variables de entorno / secretos
+# ========================
+.env
+.env.*
+*.secret
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Docker
+# ========================
+docker-data/
+
+# ========================
+# Checkpoints de Spark/Streaming
+# ========================
+stream_checkpoint/
+stream_input/
+stream_output/
