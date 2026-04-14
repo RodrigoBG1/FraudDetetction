@@ -143,9 +143,16 @@ project/
 
 ---
 
+## Dataset
+
+Download the original dataset here:
+[Data_Engineering_BI_Exercise.zip](https://zcs-demo-dataset.s3.us-east-1.amazonaws.com/Data_Engineering_BI_Exercise.zip)
+
+---
+
 ## Star schema (PostgreSQL — schema: curated)
 
-![Star schema](D:\UP\BigData\Pryecto1\README.md)
+![Star schema](starsquema.png)
 
 ### Table descriptions
 
