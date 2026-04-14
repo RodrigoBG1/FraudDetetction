@@ -26,6 +26,16 @@ Key questions it answers:
 | pandas | `pip install pandas` |
 | pyarrow | `pip install pyarrow` (for parquet) |
 
+
+---
+
+## Dataset
+
+Download the original dataset here:
+[Data_Engineering_BI_Exercise.zip](https://zcs-demo-dataset.s3.us-east-1.amazonaws.com/Data_Engineering_BI_Exercise.zip)
+
+---
+
 Install all Python dependencies at once:
 ```bash
 pip install pyspark jupyter psycopg2-binary pymongo pandas pyarrow
@@ -48,6 +58,7 @@ This starts:
 Wait ~10 seconds for both containers to become healthy.
 
 ### Step 2 — Ingest raw data into PostgreSQL
+
 
 ```bash
 python scripts/ingestion.py
@@ -141,14 +152,6 @@ project/
 └── docker-compose.yml          # PostgreSQL + MongoDB containers
 ```
 
----
-
-## Dataset
-
-Download the original dataset here:
-[Data_Engineering_BI_Exercise.zip](https://zcs-demo-dataset.s3.us-east-1.amazonaws.com/Data_Engineering_BI_Exercise.zip)
-
----
 
 ## Star schema (PostgreSQL — schema: curated)
 
