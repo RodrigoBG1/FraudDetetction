@@ -183,16 +183,14 @@ project/
 
 ## Model results
 
-> Fill in after running `notebooks/fraud_model.ipynb`
-
-| Metric | Value |
-|--------|-------|
-| AUC | _(see curated/model_metrics.json)_ |
-| Accuracy | _(see curated/model_metrics.json)_ |
-| Weighted Precision | _(see curated/model_metrics.json)_ |
-| Weighted Recall | _(see curated/model_metrics.json)_ |
-| Weighted F1-Score | _(see curated/model_metrics.json)_ |
-| Top feature | _(see curated/model_metrics.json)_ |
+| Metric             | Value  |
+|--------------------|--------|
+| AUC                | 0.7167 |
+| Accuracy           | 0.9985 |
+| Weighted Precision | 0.9971 |
+| Weighted Recall    | 0.9985 |
+| Weighted F1-Score  | 0.9978 |
+| Top feature        | amount (0.4191) |
 
 ---
 
